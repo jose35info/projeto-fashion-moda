@@ -1,0 +1,168 @@
+
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* center centraliza a pagina*/
+#center{
+    width: 1024px;
+    margin: 40px auto;
+}
+.header-topo{
+    height: 50px;
+    background-color: rgb(9, 26, 36);
+    position: relative;
+    
+}
+
+.logotipo{
+    margin: 10px 0px 0px 7em;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+.header-nav{
+    position: absolute;/* position: absolute esta posionando o link no header topo*/
+    top:0;
+    right: 0;
+    height: 100%;
+}
+
+ul{
+    margin: 0px;
+    padding: 13px;
+}
+.header-nav li{
+    list-style: none;
+    display:inline-block
+    
+    
+   }
+   
+.header-nav a{
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px 35px 0px 0px;
+    color: rgb(127, 133, 133);
+    
+   }
+
+   .header-nav  a:hover{ 
+   color: bisque;
+   transition: 4px;
+    transition: 0s linear;
+   }
+
+   .portifolio{
+    margin: 80px 100px;
+    text-align: center;
+    line-height:30px ;
+   }
+   .title{
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: rgba(14, 14, 13, 0.856);
+   }
+
+   .sub-titulo{
+    color: rgba(41, 40, 39, 0.747);
+   }
+
+   .gallery {
+    margin: 80px 100px;
+    text-align: center;
+    color: rgb(41, 40, 39,0.747);
+    overflow: auto;
+   
+    
+    }
+
+   .gallery-card{
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+   
+   }
+     .gallery-title{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 15px;
+        font-weight: bold;
+   }
+
+   .about{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    }
+
+    .about-title{
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 40px;
+        font-weight: normal;
+        font-family: tahoma, arial, sans-serif;
+    }
+    .text-about{
+        text-align: left;
+        line-height: 20px;
+        width: 300px;
+    }
+    .contact{
+        margin: 50px 0;
+        text-align: center;
+        color:#003d52
+        
+    }
+
+    .contact-title{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing:3px;
+        line-height:1px;
+    }
+
+    .contact-sub-title{
+        letter-spacing: 3px;
+        font-size: 20px;
+        
+        
+    }
+
+    .maps{
+        width:100%;
+        margin: auto;
+        height: 450px;
+        text-align: center;
+        }
+
+        iframe{
+            width: 100%;
+        }
+
+        .rodape{
+            background-color: #0b171f;
+            width: 100%;
+            height: 20vh;
+            margin-top: 50px;
+            font-size: 12px;
+        }
+
+        .rodape p{
+            text-align: center;
+            color: rgb(127, 133, 133);
+            padding: 50px;
+            letter-spacing: 3px;
+            
+        }
+
+
+    
